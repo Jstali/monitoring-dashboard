@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Note: CorporativeSansRd and Canela Text fonts from nxzen brand guide */
+/* These fonts need to be added to your project's font files */
+
+body {
+  margin: 0;
+  font-family: 'CorporativeSansRd', system-ui, -apple-system, sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'CorporativeSansRd', system-ui, sans-serif;
+  font-weight: 700;
+}
