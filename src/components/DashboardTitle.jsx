@@ -1,6 +1,6 @@
 import React from 'react';
 
-const DashboardTitle = () => {
+const DashboardTitle = ({ title = 'IMIB & ACE Live Monitoring Dashboard', subtitle = 'Live integration platform monitoring' }) => {
   return (
     <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
       <div className="flex items-center space-x-4">
@@ -10,8 +10,8 @@ const DashboardTitle = () => {
           </svg>
         </div>
         <div>
-          <h1 className="text-3xl font-bold" style={{ color: '#030304' }}>IMIB & ACE Live Monitoring Dashboard</h1>
-          <p className="mt-1" style={{ color: '#030304', opacity: 0.7 }}>Live integration platform monitoring</p>
+          <h1 className="text-3xl font-bold" style={{ color: '#030304' }}>{title}</h1>
+          <p className="mt-1" style={{ color: '#030304', opacity: 0.7 }}>{subtitle}</p>
         </div>
       </div>
     </div>
