@@ -16,7 +16,7 @@ import ReportsPage from './pages/ReportsPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/monitoring-dashboard">
       <div className="min-h-screen" style={{ backgroundColor: '#F6F2F4' }}>
         <Header />
         <Sidebar />
